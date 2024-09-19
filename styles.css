@@ -6,6 +6,8 @@
 
 body {
     background-color: #FFF4EA;
+    height: 1000px;
+    align-items: center;
 }
 
 a {
@@ -42,6 +44,7 @@ div.header {
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
+    gap: 12px;
 }
 
 div.work {
@@ -63,4 +66,43 @@ div.work {
 .summary {
     width: 400px;
     padding: 20px;
+}
+
+.aws {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a.aws{
+    grid-row: 1 / span 2;
+}
+
+img.aws {
+    width: 180px;
+    align-items: center;
+}
+
+.aws-achieved {
+    align-self: end;
+}
+
+.aws-expires {
+    align-self: start;
+    margin-top: 5px;
+}
+
+.click {
+    grid-row: 1 / span 2;
+    width: 80px;
+    margin-right: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
 }
