@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Ayoub Rached</h1>
-    <p><a href="https://www.linkedin.com/in/ayoub-rached/">LinkedIn</a> | ayoubrached10@gmail.com</p>
-    <img src="./AyoubProfilePic.jpeg" height="200"alt="Profile picture">
-    <hr>
-    <h2>Summary</h2>
-    <p>As an independent contractor and student, I have applied my programming skills and domain expertise in various projects and challenges, 
-        ranging from game design and web development to large language models and coding evaluation. 
-       I am currently pursuing a Bachelor of Science degree in Computer Science at New Jersey Institute of Technology, where I have 
-       gained proficiency in Java, C++, Python, MySQL, and other languages and tools. I am enthusiastic about learning and innovating in technology, and 
-       I am motivated to contribute to a dynamic software development team.</p>
-    <hr>
-    <h2>Education</h2>
-    <p>New Jersey Institute of Technology, B.S. of Computer Science, September 2021 - May 2025</p>
-    <hr>
-    <h2>Skills</h2>
-    <p><strong>Programming Languages: </strong>Java, C/C++, Python, JavaScript, PHP, Bash<br>
-        <strong>Web and Database: </strong>HTML, CSS, Django, React, Node.js, SQL, Oracle SQL Developer<br>
-        <strong>Software Tools: </strong>Amazon Web Services (AWS), Git, Google Data Studio, Oracle, Microsoft Office, Unix, macOS, Ubuntu, Unity</p>
-    <hr>
-    <h2>Certifications</h2>
-    <p><strong>AWS Cloud Practitioner</strong> | Issued: Septemer 8, 2024 | Expires: September 8, 2027</p>
-    <footer>
-        <p>Ayoub Rached</p>
-    </footer>
+    <div class="header">
+        <div class="playfair-display-header name">Ayoub Rached</div>
+        <div class="playfair-display-header email">ayoubrached10@gmail.com</div>
+        <div class="playfair-display-header linkedin">  
+            <a href="https://www.linkedin.com/in/ayoub-rached/"><img class='linkedin' src="./linkedin.png" alt="LinkedIn logo"></a>
+            <a href="https://www.linkedin.com/in/ayoub-rached/">LinkedIn</a>
+        </div>
+        <div class="playfair-display-header github">
+            <a href="https://github.com/ayoubrached"><img class='github' src="./github.png" alt="GitHub logo"></a>
+            <a href="https://github.com/ayoubrached">GitHub</a>
+        </div>
+    </div>
+
+    <div class="work">
+        <div>
+            <img class='profilepic' src="./AyoubProfilePic.jpeg" alt="Profile picture">
+        </div>
+        <div class="playfair-display-header summary">
+            Hi! My name is Ayoub Rached, a senior Computer Science student at the New Jersey Institute of Technology, 
+            with a strong foundation in software development, cloud computing, and machine learning. 
+            I am passionate about creating efficient and clean code to solve real-world problems, with expertise in Python, Java, C/C++, and JavaScript. 
+            I have hands-on experience working on diverse projects, including web development and machine learning models, 
+            and I am AWS Certified as a Cloud Practitioner. I am excited to pursue a career in software engineering where I can apply my skills to 
+            make a meaningful impact.
+        </div>
+    </div>
 </body>
 </html>
